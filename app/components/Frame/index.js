@@ -71,8 +71,12 @@ const Frame = () => {
       } */}
       <video
         src={videos.planet1}
-        loop
+        muted
         autoPlay
+        playsInline
+        loop
+        controls={false}
+        preload='auto'
         className='w-screen h-screen'
         style={{ objectFit: 'fill' }}
       />

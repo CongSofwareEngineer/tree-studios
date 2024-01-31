@@ -8,9 +8,9 @@ const nextConfig = {
   experimental: {
     // // cpus: 16,
     // workerThreads: true,
-    optimizeCss: true, // enabling this will enable SSR for Tailwind
+    // optimizeCss: true, // enabling this will enable SSR for Tailwind
     // swcMinify: true,
-    gzipSize: true
+    // gzipSize: true
     // optimizeServerReact: true,
     // serverMinification: true,
     // optimizePackageImports: [
